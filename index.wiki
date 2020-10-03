@@ -1,12 +1,14 @@
 %title Antares
 
 {{file:img/b44_the_dark_river.jpg|B44, The Dark River, Rho Ophiuchi, Antares, M4|class="banner"}}
-
-Вы попали на страничку спецкурса «Антарес».
-Здесь будет много всего, но пока собраны
-разные полезные для ознакомления ресурсы.
+<div class="banner">Вы попали на страничку спецкурса «Антарес».</div>
 
 == Занятия ==
+
+Кто ведёт: :: Тихоненко Илья (аспирант-астроном в СПбГУ) <br/>
+Когда проходит: :: пятница, 16:00 <br/>
+Где проходит: :: ФМЛ №30, 4 этаж <br/>
+
 
 [[пары/список_пар.wiki|список занятий по датам]]
 
@@ -14,7 +16,17 @@
 
 1. {{file:img/vklogo.png|vklogo|}} [[https://vk.com/antares_pml30|«Антерес» ВК]]
 2. {{file:img/vklogo.png|vklogo|}} [[https://vk.com/astroolympiads|Астроолимпиады]]: новости от организаторов олимпиад по астрономии
-3. [[http://www.astroolymp.ru/|Всероcсийская олимпиада по астрономии]]
+3. [[http://www.astroolymp.ru/|cайт Всероcсийской олимпиады по астрономии]]
+
+== Литература ==
+1. Кононович, Мороз «Общий курс астрономии»
+2. Hannu Karttunen, Pekka Kröger, Heikki Oja,  Markku Poutanen, Karl Johan Donner «Fundamental astronomy»
+
+Материал для лекций берётся в основном из этих двух книг.
+Дополнительно можно глянуть:
+- П.Г. Куликовский «Справочник любителя астрономии»
+- Eric Chaisson, Steve McMillan «Astronomy Today»
+- (будет дополнено)
 
 == Документы ==
 

@@ -17,10 +17,9 @@ h1,h2,h3,h4 {
     margin-bottom: 1em;
 }
 h2,h3,h4 { font-weight: bold;}
-a { text-decoration:none; color: var(--main-fg-color) }
-p > a, li > a { color: var(--link-fg-color) }
-p > a:hover, li > a:hover { text-decoration:underline }
-p > a:visited, li > a:visited { color: var(--link-fg-color) }  
+a { text-decoration:none; color: var(--link-fg-color) }
+a:visited { color: var(--link-fg-color) }
+a:hover { text-decoration:underline }
 .header a {
   text-decoration: none;
   color: inherit;
@@ -47,12 +46,26 @@ body div.content {
   color: inherit;
 }
 
+img {
+    max-width:100%;
+}
 
 img.banner {
     align:center;
-    max-width:100%;
     margin-top: -2em;
     margin-bottom:2em;
+}
+img.bare {
+    margin:0pt;
+    padding:0pt;
+    border:0pt;
+    line-height:0pt;
+    display:block
+}
+
+.banner {
+    text-align:center;
+    font-size:large;
 }
 
 footer {
@@ -101,6 +114,8 @@ pre {
     font-family:"Noto Mono",Monospace;
     border-left: 1px solid #ccc;
     margin-left: 1em; padding-left: 0.5em;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 
 
@@ -134,7 +149,7 @@ blockquote:before{
 	font-weight:600;
 	float:left;
 	margin-top:0;
-	margin-right:.2rem;
+	margin-right:.5rem;
 	width:1.2rem
 }
 blockquote:after{
