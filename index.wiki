@@ -1,0 +1,24 @@
+%title Antares
+
+{{file:img/b44_the_dark_river.jpg|B44, The Dark River, Rho Ophiuchi, Antares, M4|class="banner"}}
+
+Вы попали на страничку спецкурса «Антарес».
+Здесь будет много всего, но пока собраны
+разные полезные для ознакомления ресурсы.
+
+== Занятия ==
+
+[[пары/список_пар.wiki|список занятий по датам]]
+
+== Ссылки == 
+
+1. {{file:img/vklogo.png|vklogo|}} [[https://vk.com/antares_pml30|«Антерес» ВК]]
+2. {{file:img/vklogo.png|vklogo|}} [[https://vk.com/astroolympiads|Астроолимпиады]]: новости от организаторов олимпиад по астрономии
+3. [[http://www.astroolymp.ru/|Всероcсийская олимпиада по астрономии]]
+
+== Документы ==
+
+1. [[http://astroolymp.ru/docs/syllabus2019.pdf|Программа Всероссийской олимпиады]]
+
+%% vim: sw=4 cc=70
+
