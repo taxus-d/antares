@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="%root_path%../../tools/web-related/css/plain.css"/>
-    <link rel="icon" href="img/vklogo.png">
+    <link rel="stylesheet" type="text/css" href="%root_path%css/plain.css"/>
+    <link rel="icon" href="%root_path%../../img/starlogo.ico">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/nunito-sans" type="text/css"/> 
     <title>%title%</title>
     <meta http-equiv="Content-Type" content="text/html; charset=%encoding%" />

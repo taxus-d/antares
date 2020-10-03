@@ -2,36 +2,33 @@
 :root {
     --main-bg-color: #fafafa;
     --main-fg-color: #555;
+    --link-fg-color: #07a;
 }
 
 html, body{
-	background-color:;
+	background-color: var(--main-bg-color);
     height:100%;
     margin:0;
 }
-h1 {
+h1,h2,h3,h4 {
     font-weight: normal;
-    line-height:100%;
+    font-family: "Open Sans", sans-serif;
     margin-top: 2em;
     margin-bottom: 1em;
 }
-
-h2 {
-    font-weight: bold;
-    line-height:100%;
-    margin-top: 2em;
-    margin-bottom: 1em;
+h2,h3,h4 { font-weight: bold;}
+a { text-decoration:none; color: var(--main-fg-color) }
+p > a, li > a { color: var(--link-fg-color) }
+p > a:hover, li > a:hover { text-decoration:underline }
+p > a:visited, li > a:visited { color: var(--link-fg-color) }  
+.header a {
+  text-decoration: none;
+  color: inherit;
 }
 
-a { color:#07a; text-decoration:none }
-a:visited{ color:#07a } 
-
-.header > a:visited, .header > a {
-    color: var(--main-fg-color) !important;
-}
 
 body div.content {
-	font-family: "Open Sans",sans-serif;
+	font-family: "Segoe UI", Lato, "Open Sans",sans-serif;
 	color: var(--main-fg-color);
 	font-size:16px;
 	margin:2em auto;
@@ -44,6 +41,12 @@ body div.content {
 }
 
 .tag {display:none;}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 img.banner {
     align:center;
@@ -68,8 +71,9 @@ table {
     border-bottom: 2px solid black;
     border-collapse: collapse;
     border-spacing: 20px;
+    align:center;
     padding:10px;
-    width:80%;
+    width:100%;
 }
 th {
     border-top:none; border-bottom:1px solid black;
@@ -77,6 +81,12 @@ th {
 }
 td { padding:3px 10px;}
 
+li { margin: 0.3em auto; }
+
+ul {
+  margin-left: 2em;
+  padding-left: 0;
+}
 code {
     font-family:Hack,Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
     -moz-background-clip: padding;
@@ -132,29 +142,6 @@ blockquote:after{
 	display:block;
 	clear:both;
 }
-
-html.contrast body{ color:#151515 }
-html.contrast blockquote{ color:#11151a }
-html.contrast blockquote:before{ color:#262626 }
-html.contrast a{ color:#0051c9 }
-html.contrast a:visited{ color:#7d013e }
-html.contrast span.wr{ color:#800 }
-html.contrast span.mfw{ color:#117e69 }
-
-html.inverted { background-color:#050505 }
-html.inverted body{ color:#aaa }
-html.inverted div#invmode{
-    color:#fff;
-    background-color:#000
-}
-html.inverted blockquote{ color:#dad0c7 }
-html.inverted blockquote:before{ color:#bfbfbf }
-html.inverted a{ color:#07a } 
-html.inverted a:visited{ color:#ac5a82 }
-html.inverted span.wr{ color:#c0392b } 
-html.inverted span.mfw{ color:#19b496 }
-
-
 
 .noselect{
 	-webkit-touch-callout:none;
