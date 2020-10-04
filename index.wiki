@@ -1,6 +1,6 @@
 %title Antares
 
-{{file:img/b44_the_dark_river.jpg|B44, The Dark River, Rho Ophiuchi, Antares, M4|class="banner"}}
+{{local:img/b44_the_dark_river.jpg|B44, The Dark River, Rho Ophiuchi, Antares, M4|class="banner"}}
 <div class="banner">Вы попали на страничку спецкурса «Антарес».</div>
 
 == Занятия ==
