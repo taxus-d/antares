@@ -14,8 +14,8 @@
 
 == Ссылки == 
 
-1. {{file:img/vklogo.png|vklogo|}} [[https://vk.com/antares_pml30|«Антерес» ВК]]
-2. {{file:img/vklogo.png|vklogo|}} [[https://vk.com/astroolympiads|Астроолимпиады]]: новости от организаторов олимпиад по астрономии
+1. {{local:img/vklogo.png|vklogo|}} [[https://vk.com/antares_pml30|«Антерес» ВК]]
+2. {{local:img/vklogo.png|vklogo|}} [[https://vk.com/astroolympiads|Астроолимпиады]]: новости от организаторов олимпиад по астрономии
 3. [[http://www.astroolymp.ru/|cайт Всероcсийской олимпиады по астрономии]]
 
 == Литература ==
