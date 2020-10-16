@@ -7,7 +7,7 @@
 
 Кто ведёт: :: Тихоненко Илья (аспирант-астроном в СПбГУ) <br/>
 Когда проходит: :: пятница, 16:00 <br/>
-Где проходит: :: ФМЛ №30, 4 этаж <br/>
+Где проходит: :: ФМЛ №30, 207 кабинет <br/>
 
 
 [[пары/список_пар.wiki|список занятий по датам]]
@@ -19,8 +19,8 @@
 3. [[http://www.astroolymp.ru/|cайт Всероcсийской олимпиады по астрономии]]
 
 == Литература ==
-1. Кононович, Мороз «Общий курс астрономии»
-2. Hannu Karttunen, Pekka Kröger, Heikki Oja,  Markku Poutanen, Karl Johan Donner «Fundamental astronomy»
+1. [[resources/кононович|Кононович, Мороз «Общий курс астрономии»]]
+3. Hannu Karttunen, Pekka Kröger, Heikki Oja,  Markku Poutanen, Karl Johan Donner «Fundamental astronomy»
 
 Материал для лекций берётся в основном из этих двух книг.
 Дополнительно можно глянуть:
@@ -32,5 +32,6 @@
 
 1. [[http://astroolymp.ru/docs/syllabus2019.pdf|Программа Всероссийской олимпиады]]
 
+[[контакты]]
 %% vim: sw=4 cc=70
 
