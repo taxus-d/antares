@@ -32,6 +32,8 @@
 
 1. [[http://astroolymp.ru/docs/syllabus2019.pdf|Программа Всероссийской олимпиады]]
 
-[[контакты]]
+<div style="display:none;">
+<!-- [[контакты]] -->
+</div>
 %% vim: sw=4 cc=70
 
