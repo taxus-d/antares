@@ -120,11 +120,74 @@ m_2 - m_1 = - 2.5 \, \log_{10} \left( \frac{E_2}{E_1} \right)
 <dd>видимая (в небе): \(\color{red}-27^m\), абсолютная (с расстояния 10 пк): \(\color{red}5^m\).</dd>
 </dl>
 
+<div id="Важные факты, формулы и константы-Кусочки небесной механики"><h2 id="Кусочки небесной механики" class="header"><a href="#Важные факты, формулы и константы-Кусочки небесной механики">Кусочки небесной механики</a></h2></div>
+<p>
+  Задача о гравитационном взаимодействии \(N\) тел.
+  Решается (аналитически) только для \(N &lt; 3\).
+</p>
+
+<p>
+Для двух тел работают <span id="Важные факты, формулы и константы-Кусочки небесной механики-законы Кеплера"></span><strong id="законы Кеплера">законы Кеплера</strong> (перейдём в систему отсчёта одного из них и предположим что второго сильно меньше по массе):
+</p>
+
+<ol>
+<li>
+Движущееся тело будет совершать движение по коническому сечению (эллипс, парабола, гипербола). 
+   Форма определяется эксцентриситетом:
+  <div style="text-align:center"> <img src="../../resources/important/conics.svg" alt="конические сечения" style="margin:1em" width="50%" /> </div>
+  <div style="text-align:center"> <img src="../../resources/important/Ellipse_parameters_3.svg" alt="параметры эллипса" style="vertical-align: center;" />
+  <div style="font-size: x-small; text-align:right;">
+  Автор: Melikamp - собственная работа, CC BY-SA 3.0, <br/>
+  <a href="https://commons.wikimedia.org/w/index.php?curid=25189337">https://commons.wikimedia.org/w/index.php?curid=25189337</a> </div></div>
+\[
+  c = a\,e,  \quad b = \sqrt{a^2 - c^2}, \quad p = a\, (1-e^2)
+\]
+
+<li>
+За равные промежутки времени его радиус-вектор будет заметать равные площади. 
+   <div style="text-align:center"> <img src="../../resources/important/Kepler's_law_2_ru.svg" alt="второй закон Кеплера" width="50%" /></div>
+
+<li>
+Куб большой полуоси к квадрату периода — постоянная величина для любого относительного положения тел. 
+\[
+\frac{a^3}{T^2} = \frac{G\, M}{4\pi^2}
+\]
+
+</ol>
+<p>
+Закон сохранения энергии:
+</p>
+\[
+  \frac{v^2}{2}  - \frac{GM}{r} = h = \text{const} \qquad\quad 
+  \begin{aligned}
+   h &amp;= -\tfrac{GM}{2a} &lt; 0  &amp; a &amp;&gt; 0      &amp;&amp;\text{эллипс} \\
+   h &amp;=  -\tfrac{GM}{2a} =0  &amp; a &amp;= \infty &amp;&amp; \text{парабола}\\
+   h &amp;=  -\tfrac{GM}{2a} &gt; 0 &amp; a &amp;&lt; 0      &amp;&amp;\text{гипербола}
+  \end{aligned}
+\]
+
+<p>
+Скорости:
+</p>
+\[
+  \begin{aligned}
+   v &amp;= \sqrt{GM\, \tfrac{1}{a}} &amp;&amp;\text{круговая} \\
+   v &amp;= \sqrt{GM\,\left(\tfrac{2}{r} - \tfrac{1}{a}\right) }  &amp;&amp;\text{на эллипсе} \\
+   v &amp;= \sqrt{2\,GM \, \tfrac{1}{r}} &amp;&amp;\text{параболическая} \\
+  \end{aligned}
+\]
+
+
+<div id="Важные факты, формулы и константы-Рефракция"><h2 id="Рефракция" class="header"><a href="#Важные факты, формулы и константы-Рефракция">Рефракция</a></h2></div>
+<p>
+У горизонта \(\approx 30'\), а на малых зенитных углах \(\rho \approx 1'\, \mathop{\rm tg} z\).
+</p>
+
     </div>
 
   </body>
   <footer>
-    <p> спецкурс «Антарес», обновлено 2020-11-26 taxus-d</p>
+    <p> спецкурс «Антарес», обновлено 2021-01-30 taxus-d</p>
   </footer>
 </html>
 
