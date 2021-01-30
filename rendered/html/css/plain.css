@@ -15,6 +15,7 @@ h1,h2,h3,h4 {
     font-family: "Open Sans", sans-serif;
     margin-top: 2em;
     margin-bottom: 1em;
+    text-align:left;
 }
 h2,h3,h4 { font-weight: bold;}
 a { text-decoration:none; color: var(--link-fg-color) }
