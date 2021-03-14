@@ -3,4 +3,5 @@
 !/rendered/html/**
 !/resources/**/*.html
 !/resources/**/*.svg
+!/resources/**/*.png
 !.gitignore
