@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/plain.css"/>
+    <link rel="icon" href="../../../img/starlogo.ico">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/nunito-sans" type="text/css"/> 
+    <title>2021-03-19</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+    <!--<script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/SVG"],
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+          processEscapes: true
+        },
+        showProcessingMessages: false,
+        showMathMenu: false,
+        SVG: {scale:95},
+        TeX: {
+            extensions:["AMSmath.js"]
+        }
+      });
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>-->
+  </head>
+  <body>
+    <div class="content">
+      
+<div id="Кружок 2021-03-19"><h1 id="Кружок 2021-03-19" class="header"><a href="#Кружок 2021-03-19">Кружок 2021-03-19</a></h1></div>
+
+<div id="Кружок 2021-03-19-План"><h2 id="План" class="header"><a href="#Кружок 2021-03-19-План">План</a></h2></div>
+<ol>
+<li>
+Разбор прошлой практики.
+
+<li>
+Эффект Доплера
+
+<li>
+Задачи
+
+</ol>
+<div id="Кружок 2021-03-19-План-Разбор"><h3 id="Разбор" class="header"><a href="#Кружок 2021-03-19-План-Разбор">Разбор</a></h3></div>
+<p>
+см <a href="2021-03-12.html">страницу предыдущего занятия</a>
+</p>
+
+<div id="Кружок 2021-03-19-План-Эффект Доплера"><h3 id="Эффект Доплера" class="header"><a href="#Кружок 2021-03-19-План-Эффект Доплера">Эффект Доплера</a></h3></div>
+<p>
+Рассмотрим источник периодических сигналов/импульсов, среду, которая их передаёт, и приёмник.
+Например, гудок электрички, воздух и ухо.
+</p>
+
+<p>
+<img src="../../../resources/2021-03-19/doppler.svg" />
+</p>
+
+<p>
+Пусть скорость источника \(V\), приёмника \(v\), а распространения сигналов в среде \(u\).
+Источник каждый \(\Delta t_0\) испускает импульс.
+Какое расстояние будет между импульсами в среде?
+</p>
+
+<p>
+За время \(\Delta t_0\) источник прошёл \(V\, \Delta t_0\), а импульс, который он до этого испустил,
+\(u\, \Delta t_0\). Значит, новый сигнал, который он поместит в среду (можно думать про
+неё как про конвейер, куда кладут конфеты) будет на расстоянии \(\lambda = (u - V)\, \Delta t_0\).
+</p>
+
+<p>
+А через какие промежутки времени сигналы будет принимать приёмник?
+После получения одного импульса и до прихода другого, 
+он успет переместиться на \(s = v\, \Delta t_1\). Сигнал же прошёл \(\lambda + s = u\, \Delta t_1\).
+Подставим всё в одно уравнение. 
+</p>
+
+\[
+u\, \Delta t_1 = (u-V)\, \Delta t_0 + v\, \Delta t_1 \Rightarrow \frac{\Delta t_1}{\Delta t_0} = \frac{u -V}{u-v} 
+\]
+
+<p>
+Переведём интервалы времени в частоты: \(\nu = 1/\Delta t_0\), \(\nu_1 = \nu + \Delta \nu\):
+</p>
+\[
+\frac{\nu}{\nu_1} = \frac{u - V}{u-v} 
+\quad\Rightarrow\quad
+\frac{\Delta \nu}{\nu_1} = 1 - \frac{u -V}{u-v} = \frac{V-v}{u-v}
+\]
+
+<p>
+Переведём интервалы времени в длины волн: \(\lambda_0 = u\Delta t_0\), \(\lambda_1 = \lambda_0 + \Delta \lambda_0\):
+</p>
+\[
+\frac{\lambda_1}{\lambda_0} = \frac{u - V}{u-v} 
+\quad\Rightarrow\quad
+\frac{\Delta \lambda}{\lambda_0} = \frac{u -V}{u-v} -1 = \frac{v-V}{u-v}
+\]
+
+<p>
+Будем считать, что приёмник неподвижен относительно среды (допустим, вы слушаете гудок уходящей электрички стоя на платфоме).
+Тогда формулы, которые мы только что вывели, принимают вид:
+</p>
+\[
+\frac{\Delta \nu}{\nu_1} = \frac{V}{u}
+,\quad\frac{\Delta \lambda}{\lambda_0} = -\frac{V}{u}
+\]
+<p>
+Обычно ось \(x\) направляют в другую сторону, поэтому получается другой знак:
+</p>
+\[
+\frac{\Delta \nu}{\nu_1} = -\frac{V}{u}
+,\quad\frac{\Delta \lambda}{\lambda_0} = \frac{V}{u}
+\]
+
+
+<p>
+Что у нас получилось?
+</p>
+<ol>
+<li>
+Когда источник удаляется (\(V\) направлена влево на картинке), то частота уменьшается, длина волны увеличивается 
+   \(\Rightarrow \text{\color{red} красное смещение}\).
+
+<li>
+Когда источник приближается (\(V\) направлена вправо на картинке), то частота увеличивается, длина волны уменьшается 
+   \(\Rightarrow \text{\color{blue} синее смещение}\).
+
+</ol>
+<p>
+Тут очень важно не запутаться: в формуле для частоты в знаменателе <span id="Кружок 2021-03-19-План-Эффект Доплера-наблюдаемая"></span><strong id="наблюдаемая">наблюдаемая</strong> частота, а для длины волны в знаменателе
+<span id="Кружок 2021-03-19-План-Эффект Доплера-лабораторная"></span><strong id="лабораторная">лабораторная</strong> (в системе отсчёта источника).
+</p>
+
+
+<div id="Кружок 2021-03-19-План-Задача"><h3 id="Задача" class="header"><a href="#Кружок 2021-03-19-План-Задача">Задача</a></h3></div>
+<p>
+В спектре далёкого квазара наблюдается яркая линия водорода \(\rm Ly\alpha\) на длине
+волны 7296 Å. Найдите, на каком наибольшем красном смещении он может находиться?<br>
+</p>
+   
+<p>
+<em>Решение</em>: \(\rm Ly\alpha\) имеет длину волны 1216 Å, отсюда легко найти \(z = 5\). Пугать вас это не должно, потому 
+что к эффекту Доплера космологические красные смещения не имеют никакого отношения :)
+</p>
+
+<p>
+<div style="display:none">
+</p>
+<ol>
+<li>
+задачка, близка к некорректной: какая должна быть скорость у Солнца, чтобы оно "покраснело"?
+    Сравнить с реальными скоростями (сотни км/c)
+  =&gt;&gt; 0.15 c, в 200 раз больше 200 км/c, не бывает такого.
+
+<li>
+Точность измерений блеска составляет 0.00001m 
+   для звезд 0m ухудшается в 2 раза для звезд в 4 раза слабее, в 3 раза для звезд в 9 раз слабее.
+   С какого наибольшего расстояния можно обнаружить Землю у Солнца с таким инструментом?
+  =&gt;&gt; 10 пк, 4.8 m
+
+<li>
+Лазерный локатор на поверхности Земли посылает короткие импульсы
+   в направлении космического аппарата, расположенного вблизи нашей планеты,
+   ровно через 1 секунду друг после друга. Находящийся рядом с лазером приемник
+   регистрирует отраженные сигналы, разделенные промежутком времени 1.00008
+   секунды. Является ли аппарат искусственным спутником Земли или это
+   межпланетная станция? Атмосферными эффектами можно пренебречь.
+  ==&gt; v = 12 км/c, не очень
+
+</ol>
+<p>
+</div>
+</p>
+<div id="Кружок 2021-03-19-Кто был"><h2 id="Кто был" class="header"><a href="#Кружок 2021-03-19-Кто был">Кто был</a></h2></div>
+<ul>
+<li>
+Константин Лявданский
+
+<li>
+Евстафьева Ксения
+
+</ul>
+
+    </div>
+
+  </body>
+  <footer>
+    <p> спецкурс «Антарес», обновлено 2021-03-26 taxus-d</p>
+  </footer>
+</html>
+
